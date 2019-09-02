@@ -1,0 +1,32 @@
+{
+  "name": "note-manager",
+  "version": "1.0.0",
+  "description": "A simple web app to manage students notes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imycroft/note-manager.git"
+  },
+  "author": "Asma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imycroft/note-manager/issues"
+  },
+  "homepage": "https://github.com/imycroft/note-manager#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.3.0",
+    "mongoose": "^5.6.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
